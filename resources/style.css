@@ -392,8 +392,7 @@ footer .links a {
     font-size: 1rem;
 }
 
-
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
     
     .desktop {
       display: none;
@@ -410,6 +409,7 @@ footer .links a {
 
     .buttons {
         width: 100%;
+        padding: 0 0 1rem 0;
     }
 
     h1 {
@@ -429,8 +429,18 @@ footer .links a {
         justify-content: space-between;
     }
 
+    .left {
+        padding: 0;
+    }
+
+    .right {
+        width: 100%;
+        padding: 0;
+    }
+
     footer {
         padding-top: 2.5rem;
+        margin-top: -4rem;
     }
     
     footer .links {
@@ -450,17 +460,96 @@ footer .links a {
     }
 
     .cover .description {
-        padding: 0 1rem;
+        padding: 1rem 0;
     }
 
     .articles .featured {
         display: none;
     }
 
-    
-
-
-
-
+    .dark {
+        background-color: transparent;
+    }
 
 }
+    .articles .others .card_pic {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articles .others {
+        width: 100%;
+        padding: 1rem 1rem 2rem 1rem;
+    }
+
+    .articles .others .card_pic .pic{
+        width: 100%;
+    }
+
+    .articles .others .card_pic .pic img{
+        width: 100%;
+    }
+
+    .articles .others .white {
+        margin-bottom: 4rem;
+    }
+
+    .card_pic .pic{
+        padding: 0;
+    }
+
+    .courses {
+        margin-bottom: 1.5rem;
+        padding: 1.5rem .2rem 1.5rem .2rem;
+    }
+    
+    .courses .up_row,
+    .courses .down_row {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .courses .course {
+        background-color: #d8d8d8;
+        padding: 1rem 1rem 1.5rem 1rem;
+        margin: 0 auto 0.5rem auto;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .course .pic {
+        display: none;
+    }
+    
+    .course .description h3,
+    .course .description p {
+        display: none;
+    }
+
+
+    .thesis{
+        padding-bottom: 0;
+    }
+    .thesis .others {
+        display: none;
+    }
+    
+    .thesis .featured {
+        width: 100%;
+    }
+    
+    .thesis .featured video {
+        width: 100%;
+    }
+    
+    .thesis .featured .description {
+        display: none;
+      }
+    
+    }
+
+
+
+
+
+} */
