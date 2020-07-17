@@ -201,3 +201,43 @@ button:hover {
 .card_pic .pic {
     padding: 1rem;
 }
+
+.card_pic .description{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.articles h1{
+    font-size: 3.3rem;
+    line-height: 3.3rem;
+    letter-spacing: .2rem;
+}
+
+.description h2 {
+    line-height: 1.5rem;
+    font-size: 2.5rem;
+    letter-spacing: .05rem;
+    padding-bottom: 2rem;
+}
+
+.articles p and .description p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.articles a {
+    font-size: 1.5rem;
+    color: blue;
+    margin-top: 3rem;
+}
+
+.dark {
+    background-color: #d6d6d6;
+}
+
+.articles .caption {
+    font-size: 1.1rem;
+    color: #333333;
+}
