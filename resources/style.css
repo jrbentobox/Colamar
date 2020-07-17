@@ -16,7 +16,7 @@ body{
 
 header {
     background-color: white;
-    height: 2rem;
+    height: 4rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -118,6 +118,10 @@ button {
     width: 100%;
 }
 
+button:hover {
+    background-color: #555555;
+}
+
 .cover {
     background-color: #d8d8d8;
     width: 100%;
@@ -159,5 +163,41 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 15rem 0 3rem;
+    /* padding: 0 15rem 0 3rem; */
+}
+
+.articles .featured .pic img {
+    width: 100%;
+    height: auto;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+}
+
+.articles .others {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    /* padding: 1rem 15rem 2rem 3rem; */
+}
+
+.articles .others .card_pic{
+    display: flex;
+    flex-direction: row;
+}
+
+.articles .others .card_pic .pic {
+    width: 35%;
+}
+
+.articles .others .card_pic .pic img {
+    width: 100%;
+    height: auto;
+}
+
+.card_pic .pic {
+    padding: 1rem;
 }
