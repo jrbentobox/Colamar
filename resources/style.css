@@ -241,3 +241,226 @@ button:hover {
     font-size: 1.1rem;
     color: #333333;
 }
+
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    background-color: #e0e0e0;
+    padding: 2.5rem 10rem;
+}
+
+.courses h1 {
+    text-align: center;
+    font-size: 3.3rem;
+    line-height: 3.3rem;
+    letter-spacing: .2rem;
+}
+
+.courses .course {
+    background-color: white;
+    width: 30%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 0 1.5rem;
+}
+
+.courses .up_row, .courses .down_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.courses .up_row {
+    margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+.courses .pic img {
+    width: 100%;
+}
+
+.courses h3 {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.courses p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.course .description {
+    padding: 0 3rem;
+}
+
+
+
+
+.thesis .featured .pic video {
+    width: 100%;
+    height: auto;
+}
+
+
+.thesis {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    padding-top: 2.5rem;
+    width:  100%;
+    /* padding: 1rem 15rem 2rem 3rem; */
+}
+
+.thesis_content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.thesis .card_pic{
+    display: flex;
+    flex-direction: row;
+}
+
+.thesis .card_pic .pic {
+    width: 35%;
+}
+
+.thesis .card_pic .pic img {
+    width: 100%;
+    height: auto;
+}
+
+.card_pic .pic {
+    padding: 1rem;
+}
+
+.card_pic .description{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thesis h1{
+    font-size: 3.3rem;
+    line-height: 3.3rem;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+.thesis h2 {
+    line-height: 1.5rem;
+    font-size: 2.5rem;
+    letter-spacing: .05rem;
+    padding-bottom: 2rem;
+}
+
+.thesis p and .description p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.thesis a {
+    font-size: 1.5rem;
+    color: blue;
+    margin-top: 3rem;
+}
+
+.thesis .left{
+    padding: 0 1.5rem;
+}
+
+.dark {
+    background-color: #d6d6d6;
+}
+
+footer {
+    padding: 1.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 4rem;
+    border-top: 1px solid #555555;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .links a { 
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+
+@media only screen and (max-width: 800px) {
+    
+    .desktop {
+      display: none;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .buttons {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        line-height: 1.6rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 1.5rem;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    footer {
+        padding-top: 2.5rem;
+    }
+    
+    footer .links {
+        display: none;
+    }
+
+    .cover {
+        flex-direction: column;
+    }
+
+    .cover .pic {
+        width: 100%;
+    }
+
+    .cover .pic img{
+        width: 100%;
+    }
+
+    .cover .description {
+        padding: 0 1rem;
+    }
+
+    .articles .featured {
+        display: none;
+    }
+
+    
+
+
+
+
+
+}
