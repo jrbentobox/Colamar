@@ -115,7 +115,7 @@ button {
     font-size: 1.2rem;
     flex-shrink: 1;
     border-radius: 4px;
-    width: 100%;
+    width: 70%;
 }
 
 button:hover {
@@ -145,7 +145,10 @@ button:hover {
 .cover h1 {
     font-size: 3.3rem;
     line-height: 3.3rem;
-    letter-spacing: .2rem;
+    letter-spacing: 0rem;
+    width: 80%;
+    padding-left: 1rem;
+
 }
 
 .cover h2{
@@ -153,6 +156,12 @@ button:hover {
     font-size: 1.5rem;
     letter-spacing: .05rem;
     padding-bottom: 2rem;
+    width: 80%;
+    padding-left: 1rem;
+}
+
+.cover button{
+    margin-left: 1rem;
 }
 
 .cover .pic img{
@@ -212,14 +221,14 @@ button:hover {
 .articles h1{
     font-size: 3.3rem;
     line-height: 3.3rem;
-    letter-spacing: .2rem;
+    letter-spacing: 0rem;
 }
 
 .description h2 {
     line-height: 1.5rem;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     letter-spacing: .05rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .articles p and .description p {
@@ -230,7 +239,7 @@ button:hover {
 .articles a {
     font-size: 1.5rem;
     color: blue;
-    margin-top: 3rem;
+    margin-top: 0rem;
 }
 
 .dark {
@@ -254,7 +263,7 @@ button:hover {
     text-align: center;
     font-size: 3.3rem;
     line-height: 3.3rem;
-    letter-spacing: .2rem;
+    letter-spacing: 0rem;
 }
 
 .courses .course {
@@ -286,7 +295,7 @@ button:hover {
 }
 
 .courses p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 2rem;
 }
 
@@ -346,15 +355,22 @@ button:hover {
 .thesis h1{
     font-size: 3.3rem;
     line-height: 3.3rem;
-    letter-spacing: .2rem;
+    letter-spacing: 0rem;
     text-align: center;
 }
 
 .thesis h2 {
     line-height: 1.5rem;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     letter-spacing: .05rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;    
+}
+
+.thesis .featured h2 {
+    font-size: 3.3rem;
+    line-height: 3.3rem;
+    letter-spacing: 0rem;
+    text-align: left;
 }
 
 .thesis p and .description p {
@@ -392,7 +408,9 @@ footer .links a {
     font-size: 1rem;
 }
 
-/* @media only screen and (max-width: 800px) {
+
+
+@media only screen and (max-width: 800px) {
     
     .desktop {
       display: none;
@@ -407,9 +425,9 @@ footer .links a {
         flex-direction: row;
     }
 
-    .buttons {
+    button {
         width: 100%;
-        padding: 0 0 1rem 0;
+        padding: 0 0 0 0;
     }
 
     h1 {
@@ -434,7 +452,7 @@ footer .links a {
     }
 
     .right {
-        width: 100%;
+        width: auto;
         padding: 0;
     }
 
@@ -449,6 +467,7 @@ footer .links a {
 
     .cover {
         flex-direction: column;
+        width: auto;
     }
 
     .cover .pic {
@@ -463,6 +482,19 @@ footer .links a {
         padding: 1rem 0;
     }
 
+    .cover .right {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .cover button{
+        margin: 0;
+    }
+
+    .cover h1, .cover h2 {
+        padding-left: 0;
+    }
+
     .articles .featured {
         display: none;
     }
@@ -471,7 +503,7 @@ footer .links a {
         background-color: transparent;
     }
 
-}
+
     .articles .others .card_pic {
         display: flex;
         flex-direction: column;
@@ -503,6 +535,10 @@ footer .links a {
         padding: 1.5rem .2rem 1.5rem .2rem;
     }
     
+    .courses .up_row{
+        margin-bottom: 0;
+    }
+
     .courses .up_row,
     .courses .down_row {
         display: flex;
@@ -544,7 +580,7 @@ footer .links a {
     
     .thesis .featured .description {
         display: none;
-      }
+    
     
     }
 
@@ -552,4 +588,4 @@ footer .links a {
 
 
 
-} */
+}
